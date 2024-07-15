@@ -1,6 +1,9 @@
 # netflixgpt
 - create react app
 - configre tailwind
+-header
+-login form
+-sign-up form
  # feature
 
  login/sign-up page
