@@ -15,7 +15,19 @@
 -implemented signout
 -update profile
 -fetch from tmdb movies
--bugfix: signin user display name and prfile picture update
+-bugfix: signin user display name and prfile picture update, if the user is not login  redirect /browse to login page and vice - versa
+- unsubscribed to the onauthstatechange  call  back
+- add hardcoded values to the constant file
+- get data from tmdb "nowplaying " movies list api
+ -createed custon hookm for now plying movies
+ -update store with movie data
+ -create movieslice
+ -plaining for main and sec container
+ -fetch  data for trailer vdeo
+ -update store with trailer vdeo data
+ -embedded the utube vdeo and maki it autoplay and mute
+
+
  # feature
 
  login/sign-up page

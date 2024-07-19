@@ -6,6 +6,7 @@ import { auth } from '../utils/firebase';
 
 import { useDispatch } from 'react-redux';
 import {adduser} from "../utils/Userslice";
+import { USER_AVTAR } from '../utils/Constants';
 const Login = () => {
 
 const[issigninform,setissigninform]= useState(true);
@@ -32,7 +33,7 @@ if(!issigninform){
     const user = userCredential.user;
 // ... also we will update the user profile after signup
 updateProfile(user, {
-  displayName: name.current.value, photoURL: "https://image.shutterstock.com/image-vector/cute-pikachu-characters-on-pokemongo-260nw-2420629857.jpg"
+  displayName: name.current.value, photoURL:USER_AVTAR
 }).then(() => {
   // Profile updated!
   // updatethe redux store as well as in auth it takes some tym
