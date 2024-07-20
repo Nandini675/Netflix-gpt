@@ -26,6 +26,10 @@
  -fetch  data for trailer vdeo
  -update store with trailer vdeo data
  -embedded the utube vdeo and maki it autoplay and mute
+-build secondry container
+-build movie list
+-tmdb image cdn url
+
 
 
  # feature

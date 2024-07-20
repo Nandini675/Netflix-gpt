@@ -8,3 +8,4 @@ export const USER_AVTAR="https://wallpapers.com/images/hd/netflix-profile-pictur
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNmMxODQ3OGVhZDc2MzNiZmUxZTkyZGFiOGRiNWZkMCIsIm5iZiI6MTcyMTI1MzY5OC41MzEzMjEsInN1YiI6IjY2OTgzNmEwNmI0ODM3YjM2NjI0ZDhhNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.AVJFFjsH5k2-MXrWDQqAjptlW-m3W025pX77zjnuNmg'
     }
   };
+  export const IMG_CDN_URL="http://image.tmdb.org/t/p/w780";
