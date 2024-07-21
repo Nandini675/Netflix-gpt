@@ -19,7 +19,7 @@ const trailer =  filterdata.length? filterdata[0]: json.results[0];// in case tr
 
 // so we decided to take the first one
 
-console.log(trailer);
+
 dispatch(addTrailervdeo(trailer))
 };
 useEffect(()=>{

@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 const Secondarycontainer = () => {
  const movies = useSelector(store => store.movies);
-console.log(movies);
+
 
 
   return (

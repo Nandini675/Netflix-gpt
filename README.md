@@ -29,7 +29,9 @@
 -build secondry container
 -build movie list
 -tmdb image cdn url
-
+-gpt seaarch feature
+-multilingual feature in our app
+-to integrate gpt api(get open ai key)
 
 
  # feature

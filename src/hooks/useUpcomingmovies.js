@@ -8,7 +8,7 @@ const  useUpcomingmovies = () =>{
  const getupcomingmovies = async()=>{
    const data = await fetch('https://api.themoviedb.org/3/movie/upcoming?page=1',API_OPTIONS );// it will return a promiSE
     const json = await data.json();// to convert my data into readable form
-    console.log(json.results);
+    
     dispatch(addupcomingmovies(json.results));
 
     
