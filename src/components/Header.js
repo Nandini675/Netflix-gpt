@@ -66,8 +66,8 @@ const Header = () => {
   return (
 
 
-    <div className=' absolute px-8 py-2 bg-gradient-to-b from-black  z-10 w-screen flex justify-between'>
-        <img className="w-44"
+    <div className=' absolute px-8 py-2 bg-gradient-to-b from-black  z-10 w-screen flex  flex-col    md:justify-between bg-black  md:flex-row  '>
+        <img className="w-44 mx-auto md:mx-0"
         src={LOGO}
          alt ="Logo"/>
  {/* yeh user icon tabhi display krna hai ja user data ho yaani sign in ho  */}
@@ -87,7 +87,7 @@ onClick={handlegptsearchclick}>
   
   </button>
 
-   <img className=" w-10 h-10  rounded-lg"    
+   <img className="hidden md:block  w-10 h-10  rounded-lg"    
     alt="usericon" src={user.photoURL}/>
    <button  className="font-bold text-white"
    onClick={handlesignout }

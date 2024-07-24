@@ -31,7 +31,16 @@
 -tmdb image cdn url
 -gpt seaarch feature
 -multilingual feature in our app
--to integrate gpt api(get open ai key)
+-to integrate gpt api(get gemni ai key)
+-gpt search api call
+-fetch gpt movie suggestion from tmdb
+-gpt slice  added data
+-memomization
+-reused movie list component to make movie suggestion container
+adding .env file,pushing it to git ignore
+-made our site responsive
+-
+
 
 
  # feature

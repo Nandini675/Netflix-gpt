@@ -16,8 +16,7 @@ const  useUpcomingmovies = () =>{
  }
 // making api call inside useeffect so that it can call it only once
  useEffect (()=>{
- !upcoming &&
-    getupcomingmovies ();
+ !upcoming && getupcomingmovies ();
 
  },[])
 }

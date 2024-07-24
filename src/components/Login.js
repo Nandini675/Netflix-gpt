@@ -88,10 +88,10 @@ setissigninform(!issigninform);
     <div>
       <Header/>
       <div className="absolute" >
-      <img src={BG_URL}
+      <img  className="  h-screen object-cover md:h-max" src={BG_URL}
       alt= "back-ground"/>
       </div>
-      <form  onSubmit ={(e)=>e.preventDefault()} className='  absolute p-12 bg-black bg-opacity-80  my-24   w-4/12 mx-auto left-0 right-0 h-auto rounded-lg text-white'>
+      <form  onSubmit ={(e)=>e.preventDefault()} className='  absolute p-12 bg-black bg-opacity-80  my-24   w-full md:w-4/12 mx-auto left-0 right-0 h-auto rounded-lg text-white'>
     <h1 className=' font-bold text-3xl  text-white' >{ issigninform? "Sign In":"Sign Up"}</h1>
    {!issigninform &&(
    <input  ref={name} type="text" placeholder='Name' className='p-4 my-4 w-full bg-gray-600'  ></input>)}
