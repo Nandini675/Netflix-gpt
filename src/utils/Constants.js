@@ -15,3 +15,4 @@ export const USER_AVTAR="https://wallpapers.com/images/hd/netflix-profile-pictur
    {identifier:"french", name:"French"}
   ]; 
    export const GEMAI_KEY = process.env.REACT_APP_GEMAI_KEY;
+   export const GOOGLE_API=process.env.REACT_APP_GOOGLE_KEY;
