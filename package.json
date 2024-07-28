@@ -2,7 +2,7 @@
   "name": "netflix-gpt",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://nandini675.github.io/Netflix-gpt/",
+  "homepage":"https://nandini675.github.io/Netflix-gpt",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
